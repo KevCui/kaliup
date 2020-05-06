@@ -3,3 +3,6 @@ SCRIPT_DIR: '${CURRENT_DIR}/script'
 LIST_DIR: '${CURRENT_DIR}/list'
 DOWNLOAD_DIR: '${HOME}/Downloads'
 GIT_DIR: '${HOME}/git'
+
+# kali password
+KALI_PASSWORD: kali
