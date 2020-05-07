@@ -11,10 +11,9 @@ kaliup
     - yarn
     - pip3
     - go
+    - git
 
-- Clone GitHub repo
-
-- Install app from GitHub release page
+- Install app from GitHub release page (githubapp.sh)
 
 ## Framework structure
 
@@ -25,7 +24,7 @@ kaliup
 │   ├── apt.list
 │   ├── aptremove.list
 │   ├── githubapp.list
-│   ├── githubrepo.list
+│   ├── git.list
 │   ├── go.list
 │   ├── npm.list
 │   ├── pip.list
@@ -34,7 +33,7 @@ kaliup
     ├── aptremove.sh
     ├── apt.sh
     ├── githubapp.sh
-    ├── githubrepo.sh
+    ├── git.sh
     ├── go.sh
     ├── npm.sh
     ├── pip.sh
@@ -58,7 +57,7 @@ Custom scripts:
   aptremove         run ./script/aptremove.sh
   apt               run ./script/apt.sh
   githubapp         run ./script/githubapp.sh
-  githubrepo        run ./script/githubrepo.sh
+  git               run ./script/git.sh
   go                run ./script/go.sh
   npm               run ./script/npm.sh
   pip               run ./script/pip.sh
