@@ -86,4 +86,4 @@ Example:
 
 ### Easy customization
 
-- Already have your own setup script? Feel free to hook up by copying it to `./script/` folder, run it `./kaliup.sh <your_script_name>`
+- Already have your own setup script? Feel free to hook up by copying it to `script/` folder, run it `./kaliup.sh <your_script_name>`
