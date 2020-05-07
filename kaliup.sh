@@ -93,7 +93,7 @@ main() {
             print_info "Running ${i}.sh..."
             source "$SCRIPT_DIR/${i}.sh"
         else
-            print_error "${i}.sh are not found!"
+            print_error "${i}.sh is not found!"
         fi
     done
 }
