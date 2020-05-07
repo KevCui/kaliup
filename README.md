@@ -1,7 +1,7 @@
 kaliup
 ======
 
-> A highly customizable all-in-one Kali Linux setup framework.
+> A flexible, highly customizable, all-in-one Kali Linux setup framework.
 
 ## Features
 
