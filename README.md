@@ -77,12 +77,12 @@ Example:
 
 - Add any apps/packages into `list/<script_name>.list` file accordingly, then run `./kailu <srcipt_name>` to install them
 
-### Easy extension
-
-- Need a new global variable for your script? Add it in `globalvar.yaml`
+### Easy modularization
 
 - Need a new package manager? Simply add script to `script/` and then create app/package list in `list/`
 
 ### Easy customization
+
+- Need a new global variable for your script? Add it in `globalvar.yaml`
 
 - Already have your own setup script? Feel free to hook up by copying it to `script/` folder, run it `./kaliup.sh <your_script_name>`
