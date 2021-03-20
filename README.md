@@ -1,17 +1,27 @@
-kaliup
-======
+# kaliup
 
 > A flexible, highly customizable, all-in-one Kali Linux setup framework.
+
+## Table of Contents
+
+- [Features](#features)
+- [Framework structure](#framework-structure)
+- [Usage](#usage)
+  - [Easy configuration](#easy-configuration)
+  - [Easy modularization](#easy-modularization)
+  - [Easy customization](#easy-customization)
+- [What? You're a BlackArch Linux user?](#what-youre-a-blackarch-linux-user)
 
 ## Features
 
 - Support package managers:
-    - apt (install and remove)
-    - npm
-    - yarn
-    - pip3
-    - go
-    - git
+
+  - apt (install and remove)
+  - npm
+  - yarn
+  - pip3
+  - go
+  - git
 
 - Install app from GitHub release page (githubapp.sh)
 
@@ -70,12 +80,12 @@ Example:
 - Install apps from `apt`, `pip` and `go` lists:
 
 ```bash
-~$ ./kaliup.sh apt pip go
+$ ./kaliup.sh apt pip go
 ```
 
 ### Easy configuration
 
-- Add any apps/packages into `list/<script_name>.list` file accordingly, then run `./kailu <srcipt_name>` to install them
+- Add any apps/packages into `list/<script_name>.list` file accordingly, then run `./kaliup.sh <srcipt_name>` to install them
 
 ### Easy modularization
 
@@ -86,3 +96,11 @@ Example:
 - Need a new global variable for your script? Add it in `globalvar.yaml`
 
 - Already have your own setup script? Feel free to hook up by copying it to `script/` folder, run it `./kaliup.sh <your_script_name>`
+
+## What? You're a BlackArch Linux user?
+
+You may like to check out another similar project for BlackArch Linux: [blackarchup](https://github.com/KevCui/blackarchup).
+
+---
+
+<a href="https://www.buymeacoffee.com/kevcui" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" height="60px" width="217px"></a>
